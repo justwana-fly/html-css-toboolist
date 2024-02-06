@@ -40,6 +40,7 @@
 }
 
 .contenitore{
+    position: absolute;
     text-align: center;
     padding: 5px;
     background-color: #47ADF1;
@@ -49,7 +50,7 @@
     font-weight:600;
     color: white;
     border-radius: 5px;
-    margin-top: 5px;
+    margin: auto;
 }
 
 
