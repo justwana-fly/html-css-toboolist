@@ -79,22 +79,46 @@
 .container span {
    font-size: 20px;
    font-weight:600;
-   background-color: white;
-
+   background-color: white;             /*  per ingrandire i carrateri dei ▼ */
+   padding: 3px;
    
 }
 .container li {
-    background-color: white;
+    background-color: white;              /*spaziare tra i list item*/
+    padding: 5px;
+    
 }
 .space{
    background-color: white;
    width: 100% ;
-   font-size: 25px;
+   font-size: 25px;                          /*spaziare tra i contenuti*/
    padding: 30px;
 }
-li{
+
+ul.no-bullets {
+    list-style-type: none;                    /*tolto i puntini dei list item */
+  }
+
+  .cerchio {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border: 2px solid green;                   /*cerchio verde con la v */
+    border-radius: 50%;
+    text-align: center;
     padding: 3px;
-}
+    color: green;
+    
+  }
 
-
+  .cerchio-rosso {
+    display: inline-block;
+    width: 35px;
+    height: 35px;                             /*cerchio rosso con la x */
+    border: 1px solid red;            
+    border-radius: 50%;
+    text-align: center;
+    padding: 2px;
+    color: red;
+  }
 
