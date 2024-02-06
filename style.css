@@ -32,25 +32,36 @@
 
 .row {
     width:70%;
-    height: 45px;
+    padding: 10px;
     background-color: white;               /*piccolo conenitore centrale */
     margin: 0 auto;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
-.contenitore{
-    position: absolute;
+.contenitore {
     text-align: center;
     padding: 5px;
     background-color: #47ADF1;
     width: 100px;
     height: 30px;
-    font-size: 15px;
+    font-size: 15px;                              /*il testo Add Task */
     font-weight:600;
     color: white;
     border-radius: 5px;
-    margin: auto;
+    margin-left: 50px;
+}
+
+.row input{
+    position: absolute;
+    width: 100px;
+    height: 30px;                                /*il testo Add section */
+    border-radius: 5px;                          
+    margin-left: 170px;
+    margin-top: -30px;
+    text-align: center;
+    border: 1px solid rgb(165, 163, 163);
+    
 }
 
 
